@@ -1,0 +1,28 @@
+.card {
+  width: 400px;
+  margin: 0px auto;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+}
+.cardTitle:hover {
+  color: #ca1717;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card:hover .cardImage img {
+  width: 160%;
+}
+.cardImage {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.cardImage img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
